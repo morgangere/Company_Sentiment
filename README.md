@@ -4,6 +4,7 @@ Group Project worked on by myself (Morgan Gere) along with Suihin Wong, and Nira
 The data is simply imported, and the raw agreement and baseline comparison accuracies were determined.  Raw agreement is simply if all predictions went into one category.  IE the sentiment for all was said to be neutral the model would achieve around 40 % accuracy.  We then needed a baseline comparison which we selected NLTK’s Sentiment Analyzer Vader.  Out of the box system was found to be around 64% accurate.  This was the accuracy to beat.
 ### Word Cloud / EDA
 The tweets were separated into different data frames and word clouds were created.  The purpose of this is to examine the differences words used in positive vs negative vs all tweets. The word clouds were shaped like twitter’s bird logo just because it could be done, and it looks nice.
+
 ![image](https://user-images.githubusercontent.com/118774600/212759650-fa7fde4b-40cd-4f0b-a947-5cecb4a394dd.png)
 ![image](https://user-images.githubusercontent.com/118774600/212759714-0720a275-0d6e-48d2-902a-8f5171f3d890.png)
 ![image](https://user-images.githubusercontent.com/118774600/212759740-e68eb326-0431-4f6e-a9ec-60d75958d2b7.png)
