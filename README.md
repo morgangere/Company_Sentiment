@@ -1,5 +1,5 @@
 # Company_Sentiment
-###Required Tools:
+### Required Tools:
 
 Jupyter Notebook
 
