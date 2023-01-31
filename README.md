@@ -1,4 +1,13 @@
 # Company_Sentiment
+###Required Tools:
+
+Jupyter Notebook
+
+Excel
+
+Word
+
+### Overview
 Group Project worked on by myself (Morgan Gere) along with Suihin Wong, and Niranjan Juvekar.  The project was attempting to take a data set obtained from kaggle and create a process of using text mining techniques and form the best process of predicting sentiment on a tweet.  This size of the data set and the number of models and options tested required that it be broken up into different notebooks each focused on a particular portion of the project.  Each notebook has a specified readme section below.  The data set itself was prelabeled as either Postive, Negative, or Neutral.
 ### Base line
 The data is simply imported, and the raw agreement and baseline comparison accuracies were determined.  Raw agreement is simply if all predictions went into one category.  IE the sentiment for all was said to be neutral the model would achieve around 40 % accuracy.  We then needed a baseline comparison which we selected NLTK’s Sentiment Analyzer Vader.  Out of the box system was found to be around 64% accurate.  This was the accuracy to beat.
