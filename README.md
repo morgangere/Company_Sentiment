@@ -8,7 +8,7 @@ Excel
 Word
 
 ### Overview
-Group Project worked on by myself (Morgan Gere) along with Suihin Wong, and Niranjan Juvekar.  The project was attempting to take a data set obtained from kaggle and create a process of using text mining techniques and form the best process of predicting sentiment on a tweet.  This size of the data set and the number of models and options tested required that it be broken up into different notebooks each focused on a particular portion of the project.  Each notebook has a specified readme section below.  The data set itself was prelabeled as either Postive, Negative, or Neutral.
+Group Project worked on by me (Morgan Gere) along with Suihin Wong, and Niranjan Juvekar.  The project was attempting to take a data set obtained from Kaggle and create a process of using text mining techniques and form the best process of predicting sentiment on a tweet.  This size of the data set and the number of models and options tested required that it be broken up into different notebooks each focused on a particular portion of the project.  Each notebook has a specified readme section below.  The data set itself was prelabeled as either Positive, Negative, or Neutral.
 ### Base line
 The data is simply imported, and the raw agreement and baseline comparison accuracies were determined.  Raw agreement is simply if all predictions went into one category.  IE the sentiment for all was said to be neutral the model would achieve around 40 % accuracy.  We then needed a baseline comparison which we selected NLTK’s Sentiment Analyzer Vader.  Out of the box system was found to be around 64% accurate.  This was the accuracy to beat.
 ### Word Cloud / EDA
@@ -34,7 +34,7 @@ The best preforming model between SVM and Multinomial Naive Bayes was SVM and wi
 ![image](https://user-images.githubusercontent.com/118774600/212763156-8c73b9d6-e459-434e-85bf-a6035deb2b89.png)
 
 ### Clustering
-Clustering was preformed on the model after to deteremine if it could be used to find different tweets by sentiment.  Yet upon inspection the best clustering showed tweets taht are focused on the individual who is writing the tweets while the other clusters is twees that mention another person or entity. The clustering is shown below along with some eample tweets of the different clusterings. 
+Clustering was performed on the model after to determine if it could be used to find different tweets by sentiment.  Yet upon inspection the best clustering showed one cluster with tweets that are focused on the individual who is writing the tweets, while the other cluster is tweets that mention another person or entity. The clustering is shown below along with some example tweets of the different clusters. 
 ![image](https://user-images.githubusercontent.com/118774600/212763803-657e0461-15df-43e6-9209-b5541df66cbe.png)
 
 ### An examples of tweets in the first cluster is as shown below:
@@ -62,4 +62,4 @@ Hi  how are you doing ???  *just joined twitter...*
 Happy Mothers day to all you Mums out there
 
 ### Paper
-A Reporrt was created explaining in detail beyond this readme the project and that is also included above.
+A Report was created explaining in detail beyond this readme the project and that is also included above.
